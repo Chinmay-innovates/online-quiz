@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #68d3e9;
+}
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 255, 0.632);
+}
+header .logo {
+  position: relative;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+header .nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+header .nav a:not(:last-child) {
+  margin-right: 30px;
+}
+header .nav a:hover {
+  background: #fff;
+  color: #000;
+}
+.content {
+  max-width: 650px;
+  margin: 60px 100px;
+}
+.content .info h1 {
+  color: #2268a0;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.content .info h1 span {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600px;
+  margin-bottom: 40px;
+}
+.info p {
+  margin-bottom: 20px;
+}
+.quiz-img {
+  position: absolute;
+  top: 150px;
+  right: 150px;
+}
+.content .quiz-btn {
+  color: #fff;
+  background: #2268a0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: 0.3s;
+  transition-property: background;
+}
+.content .quiz-btn:hover {
+  background: #0c4fc0;
+}
+img {
+  width: 100%;
+  height: 50%;
+  float: right;
+}
+.copy-right {
+  position: absolute;
+  color: blue;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+footer {
+  position: relative;
+  bottom: 0px;
+}
